@@ -1,0 +1,53 @@
+   body {
+  background-color: #9f9da7;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #2b3e51;
+}
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  position: relative;
+}
+
+
+#login-form {
+  padding: 0 60px;
+}
+
+input.data{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #000000;
+  border: 1px solid #07021a;
+  font-style: normal;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+
+input[type="submit"] {
+  border: none;
+  background-color: #3ca9e2;
+  color: #fff;
+  font-size: 18px;
+}
